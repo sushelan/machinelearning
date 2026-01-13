@@ -37,7 +37,7 @@ def descend(x,y,w,b,learning_rate):
 
 # update
 
-for epoch in range(400):
+for epoch in range(800):
 
     w,b = descend(x,y,w,b,learning_rate)
     yhat = w*x+b
